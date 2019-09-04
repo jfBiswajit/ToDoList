@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(97, 92, 92);
+}
+
+.container {
+  width: 50vw;
+  margin: 5vh auto;
+  padding: 0 20px 20px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.616);
+}
+
+.container h2 {
+  padding: 10px 10px 10px 0;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+
+input[type='text'] {
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 0.2rem;
+  padding: 0.4rem;
+  outline: none;
+}
+
+input[type='submit'] {
+  padding: 0.45rem;
+  border-radius: 0.2rem;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+ul#taskList {
+  list-style: none;
+  margin-top: 20px;
+}
+
+ul#taskList li.task-item {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.212);
+  margin-top: 10px;
+}
+
+ul#taskList li.task-item:first-child {
+  margin-top: 0;
+}
+
+ul#taskList li.task-item a {
+  float: right;
+}
