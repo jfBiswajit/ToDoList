@@ -1,6 +1,6 @@
 # ToDoList
 
-ToDoList is an application to keep track of your daily task.
+ToDoList is an application to keep track of your daily task
 
 ## Features
 
